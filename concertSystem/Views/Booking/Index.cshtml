@@ -1,0 +1,34 @@
+﻿@*
+
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Najbliższe 10 rezerwacji";
+}
+
+<h1>Dzisiejsze rezerwacje</h1>
+
+<div class="text-center">
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Id</th>
+            <th>Imię i nazwisko</th>
+            <th>Od - Do [z]</th>
+            <th>Pozycja: </th>
+            <th>Komentarz</th>
+        </tr>
+
+        @foreach (Booking book in ViewBag.bookings)
+        {
+             <tr>
+                <td></td>
+                <td>@book.id</td>
+                <td>@book.name @book.surname </td>
+                <td>@book.t_start - @book.t_end</td>
+                <td>@book.position</td>
+                <td>@book.comment</td>
+            </tr>
+        }
+    </table>
+</div>
