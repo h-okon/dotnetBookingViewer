@@ -4,7 +4,7 @@
 ### Aplikacja internetowa pozwalająca na przeglądanie rezerwacji Polish vACC.
 
 ## Live demo
-Aplikacja dostępna jest pod adresem: 
+Aplikacja dostępna jest pod adresem: https://plvaccbookingcenter.azurewebsites.net/
 
 ## Opis aplikacji
 Aplikacja została napisana przy pomocy .NET ASP MVC. Jej głównym celem jest dostarczenie użytkownikowi możliwości szybkiego i sprawnego przeglądania rezerwacji. Rezerwacje zostały podzielone na trzy grupy:
@@ -13,3 +13,11 @@ Aplikacja została napisana przy pomocy .NET ASP MVC. Jej głównym celem jest d
  - Najbliższe rezerwacje - pięć najbliższych rezerwacji, które wystąpią w najbliższym czasie.
 
 Dostępna jest również lista dziesięciu najbliższych rezerwacji w podstronie dostępnej po wciśnięciu przycisku na navbarze.
+
+## Zrzuty ekranu
+![image info](https://i.imgur.com/tvVBPYo.png)
+
+![image info](https://i.imgur.com/OFOogit.png)
+
+
+
