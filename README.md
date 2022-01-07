@@ -19,5 +19,6 @@ Dostępna jest również lista dziesięciu najbliższych rezerwacji w podstronie
 
 ![image info](https://i.imgur.com/OFOogit.png)
 
+Dane pobierane są z oficjalnego API Polish vACC. Wszyscy użytkownicy, których dane są widoczne na powyższych zrzutach ekranu wyrazili zgodę na udostępnienie danych osobowych w serwisie Polish vACC, jak i w API.
 
 
